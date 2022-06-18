@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>LinkShort</title>
+    <style>
+        /* readex-pro-300 - latin */
+        @font-face {
+            font-family: 'Readex Pro';
+            font-style: normal;
+            font-weight: 300;
+            src: url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.eot');
+            /* IE9 Compat Modes */
+            src: local(''),
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-300.svg#ReadexPro') format('svg');
+            /* Legacy iOS */
+        }
+
+        /* readex-pro-600 - latin */
+        @font-face {
+            font-family: 'Readex Pro';
+            font-style: normal;
+            font-weight: 600;
+            src: url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.eot');
+            /* IE9 Compat Modes */
+            src: local(''),
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://rdr.fyi/fonts/readex-pro-v9-latin-600.svg#ReadexPro') format('svg');
+            /* Legacy iOS */
+        }
+
+        * {
+            font-family: 'Readex Pro';
+        }
+
+        body {
+            min-width: 500px;
+            min-height: 300px;
+            text-align: center;
+        }
+        .title1 {
+            color: #008CEF;
+            display: inline-block;
+            transform: rotate(-15deg);
+            margin-right: 5px;
+        }
+        .title2 {
+            color: #EF0045;
+            display: inline-block;
+            transform: rotate(4deg);
+            margin-left: 5px;
+        }
+        #shortlink {
+            margin-top: 15px;
+            padding: 10px 25px;
+            width: 75%;
+            text-align: center;
+            outline: none;
+            border-radius: 25px;
+            font-size: 1.5em;
+            border: 2px solid #787878;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><span class="title1">Link</span><span class="title2">Short</span></h1>
+    <input type="text" id="shortlink" readonly>
+    <script src="popup.js"></script>
+</body>
+
+</html>
