@@ -1,3 +1,5 @@
+### [LinkShort Base](https://github.com/getlinkshort/LinkShort) - LinkShort Browser Extension
+
 # LinkShort Browser Extension
 
 ## Legal
